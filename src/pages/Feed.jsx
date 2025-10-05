@@ -3,9 +3,10 @@ import Sidebar from '../components/Sidebar'
 import PageComponent from './PageComponent'
 import NoData from './NoData'
 
-function Feedback() {
+
+function Feed() {
   return (
-    <PageComponent>
+     <PageComponent>
         <div className='homewrapper flex flex-col min-h-screen p-5'>
             <div className='w-full'>
                 <h1 className='text-left font-semibold text-lg'>Feedback</h1>
@@ -18,4 +19,4 @@ function Feedback() {
   )
 }
 
-export default Feedback
+export default Feed

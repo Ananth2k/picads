@@ -5,15 +5,14 @@ import { Routes ,Route} from 'react-router-dom';
 import Reports from './pages/Reports';
 import Help from './pages/Help';
 import Settings from './pages/Settings';
-import Feedback from './pages/FeedBack';
-
+import Feed from './pages/Feed';
 function App() {
   return (
     <Routes>
       <Route path='/' element={<Home/>}/>
       <Route path='/reports' element={<Reports/>}/>
       <Route path='/help' element={<Help/>}/>
-      <Route path='/feedback' element={<Feedback/>}/>
+      <Route path='/feedback' element={<Feed/>}/>
       <Route path='/settings' element={<Settings/>}/>
     </Routes>
   )
