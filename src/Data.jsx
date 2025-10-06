@@ -1,7 +1,7 @@
 // src/api.jsx
 import electricCar from "../src/assets/images/electric-car.png"
 import pump from "../src/assets/images/pump.png"
-import rupee from "../src/assets/images/pump.png"
+import rupee from "../src/assets/images/rupee.png"
 
 export const getCardItems = () => {
   return [
