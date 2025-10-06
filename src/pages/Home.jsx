@@ -8,9 +8,9 @@ function Home() {
   return (
     <PageComponent>
         <div className='homewrapper flex flex-col min-h-screen p-5'>
-            <div className='w-full flex items-start justify-between'>
+            <div className='w-full flex mb-4 sm:mb-0 space-y-3 flex-col sm:flex-row items-start justify-between'>
                 <h1 className='text-left font-semibold text-lg'>Home</h1>
-                <div className='bg-theme px-2 py-2 rounded-xl shadow-lg flex gap-2 items-center justify-between'>
+                <div className='bg-theme mx-auto sm:mx-0 px-2 py-2 rounded-xl shadow-lg flex gap-2 items-center justify-between'>
                     <img 
                     className='w-10 h-10 border-2 border-white rounded-full'
                     src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" alt="" />
